@@ -14,7 +14,6 @@
 		59F164BEBE0AD189FF99F34BB73C4C9D /* LYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F1DDEBAFDC85960B573BA6A3CF7E5 /* LYTest.m */; };
 		79015121C978666220E432ECABF12FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		796968D227EE6491FE5CCF7AD925A973 /* Pods-DownloaderLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D0E151A903B7E255ADFE12FF12FB70 /* Pods-DownloaderLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C037EEF318EDCEF27FBF4D2A7200B6FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D93DA7C2872F2CF6F6D5F3F7D6A67 /* ReplaceMe.m */; };
 		C4795DC98D2A91982768E1D74C1A4E81 /* LYTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC2BF8DA59822F729CBCBB230D1C979 /* LYTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9FDCE3FFB51CCB4B1411049C905718D /* Pods-DownloaderLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B98E9B5410AED747553325DA15123DD /* Pods-DownloaderLib_Example-dummy.m */; };
 		CE1BE7DE9B92A4C629665BD1E80AACEF /* Pods-DownloaderLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B33F22749391E9DB57229EEC3E490395 /* Pods-DownloaderLib_Tests-dummy.m */; };
@@ -67,7 +66,6 @@
 		B84BAE0BE5DEA019AAC96724ECC594E7 /* DownloaderLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownloaderLib-dummy.m"; sourceTree = "<group>"; };
 		BB87757348CB2EF4CB30FF1E528BC7C6 /* Pods-DownloaderLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloaderLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C2197A2D6E7D924CEDB6E194827C842E /* Pods-DownloaderLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloaderLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C28D93DA7C2872F2CF6F6D5F3F7D6A67 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DownloaderLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		C340BD17D122053CDA57EB588B525A94 /* DownloaderLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DownloaderLib.modulemap; sourceTree = "<group>"; };
 		D7291A7DAD3D203BE3C06C70DC39162D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DD392AB82240B2EED8696A812122E806 /* Pods-DownloaderLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloaderLib_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -165,7 +163,6 @@
 			children = (
 				4EC2BF8DA59822F729CBCBB230D1C979 /* LYTest.h */,
 				196F1DDEBAFDC85960B573BA6A3CF7E5 /* LYTest.m */,
-				C28D93DA7C2872F2CF6F6D5F3F7D6A67 /* ReplaceMe.m */,
 				651438A31D87BF7F156F8BCAC21923A1 /* Pod */,
 				52DAAEB3680A3CDC15BA025D3440551F /* Support Files */,
 			);
@@ -373,7 +370,6 @@
 			files = (
 				3173974E495C664787CC607F91086C96 /* DownloaderLib-dummy.m in Sources */,
 				59F164BEBE0AD189FF99F34BB73C4C9D /* LYTest.m in Sources */,
-				C037EEF318EDCEF27FBF4D2A7200B6FF /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
