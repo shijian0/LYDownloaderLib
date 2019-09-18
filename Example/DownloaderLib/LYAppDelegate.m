@@ -7,11 +7,12 @@
 //
 
 #import "LYAppDelegate.h"
-
+#import <DownloaderLib/LYTest.h>
 @implementation LYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[LYTest alloc] eat];
     // Override point for customization after application launch.
     return YES;
 }
