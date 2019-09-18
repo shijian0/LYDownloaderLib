@@ -1,0 +1,16 @@
+PODS:
+  - DownloaderLib (0.1.0)
+
+DEPENDENCIES:
+  - DownloaderLib (from `../`)
+
+EXTERNAL SOURCES:
+  DownloaderLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DownloaderLib: 2e6d184396f99c6085f269f71e5729de97f5b42c
+
+PODFILE CHECKSUM: da742ddc1ca28819354c978d80147199a4b6079b
+
+COCOAPODS: 1.7.5

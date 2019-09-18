@@ -1,0 +1,6 @@
+framework module DownloaderLib {
+  umbrella header "DownloaderLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
