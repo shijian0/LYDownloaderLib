@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06BBEB29941DAAE7D87F1CE436488329 /* DownloaderLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 592FDC5B8430732E9A147020A9D42B54 /* DownloaderLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0171B1D522BAA24A02453667B5CC6708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		0D61F10B22D0E0B6D2247C015D9000F3 /* Pods-DownloaderLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD392AB82240B2EED8696A812122E806 /* Pods-DownloaderLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3173974E495C664787CC607F91086C96 /* DownloaderLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B84BAE0BE5DEA019AAC96724ECC594E7 /* DownloaderLib-dummy.m */; };
 		4B61680794AEB3E2E0DCB0B2380231E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		59F164BEBE0AD189FF99F34BB73C4C9D /* LYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F1DDEBAFDC85960B573BA6A3CF7E5 /* LYTest.m */; };
 		79015121C978666220E432ECABF12FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		796968D227EE6491FE5CCF7AD925A973 /* Pods-DownloaderLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D0E151A903B7E255ADFE12FF12FB70 /* Pods-DownloaderLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		856120D6BBCE2210CC44D723FD86494E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C91B5C772370D6F6A347ED57B26CA868 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 297C865650BAE744553E413D50769819 /* ReplaceMe.m */; };
+		C037EEF318EDCEF27FBF4D2A7200B6FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D93DA7C2872F2CF6F6D5F3F7D6A67 /* ReplaceMe.m */; };
+		C4795DC98D2A91982768E1D74C1A4E81 /* LYTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC2BF8DA59822F729CBCBB230D1C979 /* LYTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9FDCE3FFB51CCB4B1411049C905718D /* Pods-DownloaderLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B98E9B5410AED747553325DA15123DD /* Pods-DownloaderLib_Example-dummy.m */; };
 		CE1BE7DE9B92A4C629665BD1E80AACEF /* Pods-DownloaderLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B33F22749391E9DB57229EEC3E490395 /* Pods-DownloaderLib_Tests-dummy.m */; };
-		D05CC488714F632B27F0197EA1923BA4 /* DownloaderLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8654BEB4BE45E621F83F6A68FC4AA49 /* DownloaderLib-dummy.m */; };
+		DDBF5DE620161A52DC4E5A30D39A43C9 /* DownloaderLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC006E4C2B6AB592AB4BAE0D0BFE513 /* DownloaderLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,40 +40,50 @@
 
 /* Begin PBXFileReference section */
 		037B1294D5D43B7541F5A76C83A87B95 /* Pods-DownloaderLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownloaderLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		05CC15CCB6D201A29295919A3083978B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0A7AD6037B598548F18343CF137A8E56 /* DownloaderLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownloaderLib.xcconfig; sourceTree = "<group>"; };
 		0DB97B70B6F22F55F58AFE429D705C00 /* Pods-DownloaderLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloaderLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		151D44CE229B182B71E0E925890022E8 /* DownloaderLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DownloaderLib.modulemap; sourceTree = "<group>"; };
 		17F0449C4B37571CA386A30E787D098F /* Pods_DownloaderLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownloaderLib_Example.framework; path = "Pods-DownloaderLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		196F1DDEBAFDC85960B573BA6A3CF7E5 /* LYTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTest.m; path = DownloaderLib/Classes/LYTest.m; sourceTree = "<group>"; };
 		1F83C363373E6A44C7C699E8F7DEC58F /* Pods-DownloaderLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloaderLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		250211B4D1A91470ACFC755DB9ED4566 /* Pods-DownloaderLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownloaderLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		297C865650BAE744553E413D50769819 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DownloaderLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		2B98E9B5410AED747553325DA15123DD /* Pods-DownloaderLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownloaderLib_Example-dummy.m"; sourceTree = "<group>"; };
 		2D1390AC10606D9AFDC03E0E4FC33245 /* Pods-DownloaderLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloaderLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32FEA963CA3E33888B4CF72EB20D0E16 /* Pods_DownloaderLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownloaderLib_Tests.framework; path = "Pods-DownloaderLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34024E8212E5BBEB2DDE17546D5F5F69 /* DownloaderLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownloaderLib.xcconfig; sourceTree = "<group>"; };
+		4147998A1F25386040696BE862EE982A /* DownloaderLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloaderLib-prefix.pch"; sourceTree = "<group>"; };
 		45D6AD586DB09116216406E629020DD1 /* Pods-DownloaderLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloaderLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		51411241482688E2D6258706AA6A3CA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		592FDC5B8430732E9A147020A9D42B54 /* DownloaderLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloaderLib-umbrella.h"; sourceTree = "<group>"; };
+		4EC2BF8DA59822F729CBCBB230D1C979 /* LYTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTest.h; path = DownloaderLib/Classes/LYTest.h; sourceTree = "<group>"; };
 		5ABB789FF3561C7DF380B676F276BC0B /* Pods-DownloaderLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DownloaderLib_Tests.modulemap"; sourceTree = "<group>"; };
 		74811456ED359BC3F2D6135DC8C52E67 /* Pods-DownloaderLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloaderLib_Example-Info.plist"; sourceTree = "<group>"; };
 		75E3B7B8C6F420D26AD3971A39977AB2 /* Pods-DownloaderLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloaderLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7DC69BF773321A9C188F9A37D6E6CDEF /* Pods-DownloaderLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloaderLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		84F3726D3CE70C805F4B57BC267544F4 /* DownloaderLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DownloaderLib-Info.plist"; sourceTree = "<group>"; };
+		8E1F2EC5702EE923D85B2044A2393B83 /* DownloaderLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DownloaderLib-Info.plist"; sourceTree = "<group>"; };
 		911875AE8FE45248907D3A967CCB3BF1 /* DownloaderLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DownloaderLib.framework; path = DownloaderLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D0E151A903B7E255ADFE12FF12FB70 /* Pods-DownloaderLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloaderLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9C4CCBCA27DF133334CD8CE6F264157F /* DownloaderLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloaderLib-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB7CA0895D8A4233BA0D59F710C59A3E /* DownloaderLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DownloaderLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0439BC65D3670ED48C495080376CAFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ACC006E4C2B6AB592AB4BAE0D0BFE513 /* DownloaderLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloaderLib-umbrella.h"; sourceTree = "<group>"; };
 		B33F22749391E9DB57229EEC3E490395 /* Pods-DownloaderLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownloaderLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		B8654BEB4BE45E621F83F6A68FC4AA49 /* DownloaderLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownloaderLib-dummy.m"; sourceTree = "<group>"; };
+		B84BAE0BE5DEA019AAC96724ECC594E7 /* DownloaderLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownloaderLib-dummy.m"; sourceTree = "<group>"; };
 		BB87757348CB2EF4CB30FF1E528BC7C6 /* Pods-DownloaderLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloaderLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C2197A2D6E7D924CEDB6E194827C842E /* Pods-DownloaderLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloaderLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C28D93DA7C2872F2CF6F6D5F3F7D6A67 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DownloaderLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C340BD17D122053CDA57EB588B525A94 /* DownloaderLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DownloaderLib.modulemap; sourceTree = "<group>"; };
+		D7291A7DAD3D203BE3C06C70DC39162D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DD392AB82240B2EED8696A812122E806 /* Pods-DownloaderLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloaderLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		E9C774ECA0A1BDD242CB99EF3FDA18DA /* DownloaderLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DownloaderLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1323BC4262247C52D723A2AE6D930CF /* Pods-DownloaderLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DownloaderLib_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		75D1CE1E961DB91BC17C0CD9D90E4529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0171B1D522BAA24A02453667B5CC6708 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80398CFF378A3BC4F44A959F0F6FE43E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,14 +97,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				79015121C978666220E432ECABF12FDA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF73F6CCFE25AAAF4F4564AF912EBD55 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				856120D6BBCE2210CC44D723FD86494E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,24 +129,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16C60CA3F1FCD2A96B5C0AF4D1281F48 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F4467C28BF4DBB6DACD8392CA9F38455 /* DownloaderLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1A7A8E13101A178897D31651D85EBD26 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AB7CA0895D8A4233BA0D59F710C59A3E /* DownloaderLib.podspec */,
-				05CC15CCB6D201A29295919A3083978B /* LICENSE */,
-				51411241482688E2D6258706AA6A3CA6 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		3AFF10400831AA794F416C0031D26E7B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +136,51 @@
 				007670ECE5049682E6CE71A62B288A11 /* Pods-DownloaderLib_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E31A7F453E3D8803742C8B489A4AB7B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F5BB9F019CA2C82E82991DB69A3E356 /* DownloaderLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52DAAEB3680A3CDC15BA025D3440551F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C340BD17D122053CDA57EB588B525A94 /* DownloaderLib.modulemap */,
+				34024E8212E5BBEB2DDE17546D5F5F69 /* DownloaderLib.xcconfig */,
+				B84BAE0BE5DEA019AAC96724ECC594E7 /* DownloaderLib-dummy.m */,
+				8E1F2EC5702EE923D85B2044A2393B83 /* DownloaderLib-Info.plist */,
+				4147998A1F25386040696BE862EE982A /* DownloaderLib-prefix.pch */,
+				ACC006E4C2B6AB592AB4BAE0D0BFE513 /* DownloaderLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DownloaderLib";
+			sourceTree = "<group>";
+		};
+		5F5BB9F019CA2C82E82991DB69A3E356 /* DownloaderLib */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2BF8DA59822F729CBCBB230D1C979 /* LYTest.h */,
+				196F1DDEBAFDC85960B573BA6A3CF7E5 /* LYTest.m */,
+				C28D93DA7C2872F2CF6F6D5F3F7D6A67 /* ReplaceMe.m */,
+				651438A31D87BF7F156F8BCAC21923A1 /* Pod */,
+				52DAAEB3680A3CDC15BA025D3440551F /* Support Files */,
+			);
+			name = DownloaderLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		651438A31D87BF7F156F8BCAC21923A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E9C774ECA0A1BDD242CB99EF3FDA18DA /* DownloaderLib.podspec */,
+				D7291A7DAD3D203BE3C06C70DC39162D /* LICENSE */,
+				A0439BC65D3670ED48C495080376CAFF /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6AFDBF94A9E1EB5C855EF07436365E72 /* Pods-DownloaderLib_Example */ = {
@@ -169,20 +200,6 @@
 			path = "Target Support Files/Pods-DownloaderLib_Example";
 			sourceTree = "<group>";
 		};
-		A7E7758F57F455AB59A14265E78B77FB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				151D44CE229B182B71E0E925890022E8 /* DownloaderLib.modulemap */,
-				0A7AD6037B598548F18343CF137A8E56 /* DownloaderLib.xcconfig */,
-				B8654BEB4BE45E621F83F6A68FC4AA49 /* DownloaderLib-dummy.m */,
-				84F3726D3CE70C805F4B57BC267544F4 /* DownloaderLib-Info.plist */,
-				9C4CCBCA27DF133334CD8CE6F264157F /* DownloaderLib-prefix.pch */,
-				592FDC5B8430732E9A147020A9D42B54 /* DownloaderLib-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DownloaderLib";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				16C60CA3F1FCD2A96B5C0AF4D1281F48 /* Development Pods */,
+				3E31A7F453E3D8803742C8B489A4AB7B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				0920F6E232F4F230930647EC23BFE65B /* Products */,
 				3AFF10400831AA794F416C0031D26E7B /* Targets Support Files */,
@@ -210,20 +227,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F4467C28BF4DBB6DACD8392CA9F38455 /* DownloaderLib */ = {
-			isa = PBXGroup;
-			children = (
-				297C865650BAE744553E413D50769819 /* ReplaceMe.m */,
-				1A7A8E13101A178897D31651D85EBD26 /* Pod */,
-				A7E7758F57F455AB59A14265E78B77FB /* Support Files */,
-			);
-			name = DownloaderLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2077A175B216546D291604B47C4F267F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBF5DE620161A52DC4E5A30D39A43C9 /* DownloaderLib-umbrella.h in Headers */,
+				C4795DC98D2A91982768E1D74C1A4E81 /* LYTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B750F56481FF9C91969FAE15F57A602 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,25 +255,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D13CE2A7F0084D9117D9123DC4276840 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06BBEB29941DAAE7D87F1CE436488329 /* DownloaderLib-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		35B13E39C111BA85AD3BCA4A06612615 /* DownloaderLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F80071FD5A44E28AEBACD3A7B8791B58 /* Build configuration list for PBXNativeTarget "DownloaderLib" */;
+			buildConfigurationList = 6557C8D634F78012B639A5362C70554B /* Build configuration list for PBXNativeTarget "DownloaderLib" */;
 			buildPhases = (
-				D13CE2A7F0084D9117D9123DC4276840 /* Headers */,
-				E3B2FB84B2C0FF6C9177777D295F0F57 /* Sources */,
-				AF73F6CCFE25AAAF4F4564AF912EBD55 /* Frameworks */,
-				285DFC3C553DA43ED0CAECC779549944 /* Resources */,
+				2077A175B216546D291604B47C4F267F /* Headers */,
+				4634156A89F9161647D9DAC2635395FC /* Sources */,
+				75D1CE1E961DB91BC17C0CD9D90E4529 /* Frameworks */,
+				4BE0EE5551003DCFA27892404418ABF9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,7 +343,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		285DFC3C553DA43ED0CAECC779549944 /* Resources */ = {
+		4BE0EE5551003DCFA27892404418ABF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,6 +367,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4634156A89F9161647D9DAC2635395FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3173974E495C664787CC607F91086C96 /* DownloaderLib-dummy.m in Sources */,
+				59F164BEBE0AD189FF99F34BB73C4C9D /* LYTest.m in Sources */,
+				C037EEF318EDCEF27FBF4D2A7200B6FF /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F953427C7841A09853D0229963BC66E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,15 +390,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9FDCE3FFB51CCB4B1411049C905718D /* Pods-DownloaderLib_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3B2FB84B2C0FF6C9177777D295F0F57 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D05CC488714F632B27F0197EA1923BA4 /* DownloaderLib-dummy.m in Sources */,
-				C91B5C772370D6F6A347ED57B26CA868 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,9 +479,9 @@
 			};
 			name = Release;
 		};
-		4A12ED4A00C16A210225D39237D5BCA2 /* Debug */ = {
+		48548C0A221A5866D8B9599409FC1729 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A7AD6037B598548F18343CF137A8E56 /* DownloaderLib.xcconfig */;
+			baseConfigurationReference = 34024E8212E5BBEB2DDE17546D5F5F69 /* DownloaderLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -497,10 +505,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -561,6 +570,37 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		6B95E40358585B183A592494F8C99317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34024E8212E5BBEB2DDE17546D5F5F69 /* DownloaderLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DownloaderLib/DownloaderLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DownloaderLib/DownloaderLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DownloaderLib/DownloaderLib.modulemap";
+				PRODUCT_MODULE_NAME = DownloaderLib;
+				PRODUCT_NAME = DownloaderLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -625,38 +665,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		AEC8ABCE673C46B4D99D2463C9021387 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A7AD6037B598548F18343CF137A8E56 /* DownloaderLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DownloaderLib/DownloaderLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DownloaderLib/DownloaderLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DownloaderLib/DownloaderLib.modulemap";
-				PRODUCT_MODULE_NAME = DownloaderLib;
-				PRODUCT_NAME = DownloaderLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B48C6966B2BCEFC871BC65F87557AE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -736,6 +744,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6557C8D634F78012B639A5362C70554B /* Build configuration list for PBXNativeTarget "DownloaderLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B95E40358585B183A592494F8C99317 /* Debug */,
+				48548C0A221A5866D8B9599409FC1729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EA5162CEF9AF159EB1F072A18FC14953 /* Build configuration list for PBXNativeTarget "Pods-DownloaderLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -750,15 +767,6 @@
 			buildConfigurations = (
 				B60C686EF26F376F4F5BBAEC97F854B8 /* Debug */,
 				43C4680CBD62B27B387E15ADC8A965D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F80071FD5A44E28AEBACD3A7B8791B58 /* Build configuration list for PBXNativeTarget "DownloaderLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A12ED4A00C16A210225D39237D5BCA2 /* Debug */,
-				AEC8ABCE673C46B4D99D2463C9021387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

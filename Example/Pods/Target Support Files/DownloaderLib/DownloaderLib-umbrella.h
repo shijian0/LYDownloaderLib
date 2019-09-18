@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LYTest.h"
 
 FOUNDATION_EXPORT double DownloaderLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char DownloaderLibVersionString[];
